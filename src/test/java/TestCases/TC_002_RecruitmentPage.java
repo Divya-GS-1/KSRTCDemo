@@ -14,6 +14,7 @@ public class TC_002_RecruitmentPage extends BaseClass {
 		KSRTC_Home.KSRTC_HomePage();
 		System.out.println("Second Test case: Recruiting page");
 		Thread.sleep(30000);
+		System.out.println(" --Added comment, Check in from Gitdesktop--");
 		RecruitmentPage recruit = new RecruitmentPage(driver);
 		recruit.KSRTC_RecruitmentPage();
 		log.info("TestCase 2 completed");
